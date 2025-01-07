@@ -1,1 +1,18 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href ="styleAgeDetector.css"></link>
+</head>
+<body>
+    <label id="myLabel">Enter your age: </label><br>
+    <input type="text" id="myText"><br>
+    <button id="myButton">Submit</button><br>
+    <div>
+        <p id="resultElement"></p>
+    </div>
+    <script src="ageDetector.js"></script>
+</body>
+</html>
